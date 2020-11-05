@@ -25,14 +25,13 @@ class Reptile(Animal):
         return "Find a mate through"
 
 
-# Creates a reptile object
-reptile = Reptile()
-
-# These are methods from the Parent class, Animal
-print(reptile.breathe())
-print(reptile.move())
-
-# These are methods from the Reptile class
-print(reptile.hunt())
-print(reptile.seek_heat())
-
+# # Creates a reptile object
+# reptile = Reptile()
+# 
+# # These are methods from the Parent class, Animal
+# print(reptile.breathe())
+# print(reptile.move())
+# 
+# # These are methods from the Reptile class
+# print(reptile.hunt())
+# print(reptile.seek_heat())
