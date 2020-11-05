@@ -101,7 +101,8 @@ import mod1
 # Whenever the interpreter reads a source file, it sets the variable __name__
 # and then executes all files in that file
 # When you import mod1, the interpreter sets the __name__ of the import as mod1
-# When it runs the mod1 file (since you've imported it), it's __name__ is no longer '__main__' hence the function check() does not run
+# When it runs the mod1 file (since you've imported it), 
+# it's __name__ is no longer '__main__' hence the function check() does not run
 
 if __name__ == "__main__":
     check()
