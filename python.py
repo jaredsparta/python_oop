@@ -11,6 +11,9 @@ class Python(Snake):
     def digest_large_prey(self):
         return "Digest prey"
 
+    def eat(self):
+        return "Python yum yum"
+
 
     def constrict(self):
         return "Constricts prey"
@@ -46,3 +49,6 @@ python = Python()
 # print("\nFrom Animal:")
 # print(python.alive)
 # print(python.procreate())
+# 
+# # We changed the Animal method 'eat' to something differet:
+# print(python.eat())
